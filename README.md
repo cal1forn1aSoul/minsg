@@ -19,7 +19,9 @@ It's a work in progress. be gentle I'm just a one man team.
 
 ### **Install Globally** `(it's a CLI not a dependency)`
 
-```npm i -g minsg```
+```
+npm i -g minsg
+```
 
 
 ### **Commands**
@@ -29,7 +31,7 @@ It's a work in progress. be gentle I'm just a one man team.
 ```
 
 ### **Action Types**
-```javascript
+```
   1. g - generate.
   2. mv - move/rename.
   3. rm - remove.

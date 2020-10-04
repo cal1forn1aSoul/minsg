@@ -5,7 +5,7 @@
   "main": "./index.js",
   "bin": "./index.js",
   "scripts": {
-      
+    
   },
   "keywords": ["React", "Generate", "Components", "Snippets"],
   "repository": {

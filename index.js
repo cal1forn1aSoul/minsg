@@ -1,9 +1,6 @@
 #!/usr/bin/env node
+const main = require('./lib/reducers/command-reducer');
 
-const cmd = require('./initCMD/initCMD');
-const type = require('./cmpType/cmpType');
-const path = require('./cmpPath/cmpPath');
+const [command, target, path, destination] = process.argv.slice(2);
 
-let initCMD = cmd(process.argv[2]);
-let componentType = type(process.argv[3]);
-let componentPath = path(process.argv[4], process.argv[3]);
+main(command,  target, path, destination);

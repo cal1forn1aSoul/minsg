@@ -23,7 +23,7 @@ It's a work in progress. be gentle I'm just a one man team.
 <br>
 
 ### **Install Globally** 
-#### `(it's a CLI no a dependency)`
+#### `(it's a CLI not a dependency)`
 
 <br>
 
